@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio | Développeur</title>
+    <style>
+        /* CSS Intégré pour la simplicité */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #24292e; /* Couleur GitHub */
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .project-card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 { color: #0366d6; }
+        .footer { text-align: center; margin-top: 2rem; font-size: 0.9rem; color: #666; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Salut, moi c'est [Ton Nom] 👋</h1>
+    <p>Développeur en herbe | HTML & CSS</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2>À propos</h2>
+        <p>Passionné par le code, je construis mes premiers projets web en apprenant les bases du Front-end.</p>
+    </section>
+
+    <section>
+        <h2>Mes Projets</h2>
+        <div class="project-card">
+            <h3>🚀 Projet 1 : Mon premier site</h3>
+            <p>Un site statique réalisé entièrement en HTML et CSS pur.</p>
+        </div>
+        <div class="project-card">
+            <h3>📱 Projet 2 : Layout Responsive</h3>
+            <p>Utilisation de Flexbox pour adapter l'affichage sur mobile.</p>
+        </div>
+    </section>
+</div>
+
+<div class="footer">
+    <p>Propulsé par GitHub Pages - 2026</p>
+</div>
+
+</body>
+</html>
